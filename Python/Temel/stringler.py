@@ -16,21 +16,17 @@ print(len(mesaj))
 print(mesaj.upper())
 print(mesaj.lower())
 
+#py de case sensitive özelliği vardır
+firstString="python Is AWESOME"
+secondString="PYthon is aWesomE"
 
-
-
-
-
-# firstString="python Is AWESOME"
-# secondString="PYthon is aWesomE"
-# #py de case sensitive özelliği vardır
-# if(firstString==secondString):
-#     print("these are the same")
-# else:
-#     print("these are different")
+if(firstString==secondString):
+    print("these are the same")
+else:
+    print("these are different")
     
-# if(firstString.upper()==secondString.upper()):
-#     print("these sentences are same")
-# else:
-#     print("these sentences are different")
+if(firstString.upper()==secondString.upper()):
+    print("these sentences are same")
+else:
+    print("these sentences are different")
 

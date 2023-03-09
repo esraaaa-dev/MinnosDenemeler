@@ -1,15 +1,16 @@
 #if ifadesi
 
-# x=int(input("please enter an integer: "))
-# if x<0:
-#     x=0
-#     print("negative changed to zero")
-# elif x==0:
-#     print("zero")
-# elif x==1:
-#     print("single")
-# else:
-#     print("more")
+#kullaıcıdan veri almak için input() kullanılır
+x=int(input("please enter an integer: "))
+if x<0:
+    x=0
+    print("negative changed to zero")
+elif x==0:
+    print("zero")
+elif x==1:
+    print("single")
+else:
+    print("more")
     
 #for döngüsü
 
@@ -27,6 +28,7 @@ print(users)
 for i in range(5):
     print(i)
     
-print(list(range(-10, -100, -30))) # -10  ile -100 arasında 30 cıkararak ilerle 
+print(list(range(-10, -100, -30))) # -10  ile -100 arasında -30 cıkararak ilerle 
+
     
     

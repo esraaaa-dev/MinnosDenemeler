@@ -2,7 +2,7 @@
 lists=[1,3,5,7,9]
 print(lists)
 print(lists[3])
-lists.append(45)  #append(9 fonk ile listenin sonuna elema eklenir
+lists.append(45)  #append( ) fonksiyonu ile listenin sonuna elema eklenir
 print(lists)
 
 letters=['a','b','c','d','e','f','g']
