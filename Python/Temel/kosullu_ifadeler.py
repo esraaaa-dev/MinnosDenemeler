@@ -25,7 +25,7 @@ print(users)
 
 #range() fonksiyonu
 
-for i in range(5):
+for i in range(5): #i=0;i<5:i++ anlamına gelir
     print(i)
     
 print(list(range(-10, -100, -30))) # -10  ile -100 arasında -30 cıkararak ilerle 

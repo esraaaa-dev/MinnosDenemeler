@@ -2,7 +2,7 @@
 lists=[1,3,5,7,9]
 print(lists)
 print(lists[3])
-lists.append(45)  #append( ) fonksiyonu ile listenin sonuna elema eklenir
+lists.append(45)  #append() fonksiyonu ile listenin sonuna eleman eklenir
 print(lists)
 
 letters=['a','b','c','d','e','f','g']
@@ -23,4 +23,16 @@ print("silindikten sonra harf listesi: ",letters)
 #listeler stringlerden farklı olarak mutable yapılardır 
 lists[2] =31
 print("2. indise 31  atanınca lists listesi: ",lists)
+
+#*** listelerin içinde farklı turden elemanlar bulunabilir. 
+
+isim=['esra','zehra',5]
+print(isim)
+
+isim.append(True)
+print(isim) #string integer ve boolean türünde degerler içerdi
+
+#listeler diger listelerle birleştirilebiliz
+birlesmisListe=isim+lists
+print("isim ve lists listesi: ",birlesmisListe)
 
